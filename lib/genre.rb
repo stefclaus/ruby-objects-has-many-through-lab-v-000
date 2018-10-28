@@ -23,6 +23,8 @@ class Genre
     songs.map do |song|
       song.artist
     end 
+    ary.uniq{|x| x.user_id}
+
   end
 
   
